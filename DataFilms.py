@@ -60,7 +60,8 @@ class FilmsData:
 
         return list(dict(zip(["title", "description"], result)) for result in self.cursor.fetchall())
 
-    def get_film_by_two_actors(self, actor_one, actor_two):
+    def get_film_by_two_actors(self, actor_one: str, actor_two: str):
+        print(actor_two,actor_one)
         """Возвращает актёров, которые играли с выбранными двумя актёрами более чем в 1й картине"""
         self.cursor.execute("""
         SELECT "cast" FROM {}

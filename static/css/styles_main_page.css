@@ -1,0 +1,74 @@
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+html,
+body {
+  color: #150;
+  font: 490 15px/1.2  Montserrat, "Malgun Gothic";
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+header {
+  color: #FFF;
+  height: 100vh;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  z-index: 1
+}
+
+.down-arr {
+  font-size: 2rem;
+  padding: 0 20px 20px 20px;
+  z-index: 1
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px 100px;
+  text-align: center;
+  width: 100%;
+}
+
+section:nth-child(2) {
+  background: #ECF0F1;
+}
+
+.full-image-wrap {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.full-image {
+  height: auto;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  width: auto;
+}

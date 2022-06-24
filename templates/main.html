@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск по базе Netflix</title>
+    <link href="/static/css/styles_main_page.css" rel="stylesheet">
+</head>
+<body>
+    <h1 align="center">Здравствуй, пользователь!</h1>
+    <br/>
+    <h4 align="center">Это приложение для поиска фильмов по базе сервиса Netflix</h4>
+    <br/>
+    <br/>
+    <div>Для поиска по названию фильма пропиши в адресной строке: <strong>http://127.0.0.1:7000/movie/Title</strong> > Название фильма латиницей с заглавной буквы
+    </div>
+    <br/>
+    <div>Для поиска по диапазону лет выпуска пропиши: <strong>http://127.0.0.1:7000/movie/1970/to/1980</strong>
+    </div>
+    <br/>
+    <div>Для поиска по возрастному рейтингу пропиши: <strong>http://127.0.0.1:7000/rating/children</strong> > Возможные варианты (children, family, adult)
+    </div>
+    <br/>
+    <div>Для поиска по жанру пропиши: <strong>http://127.0.0.1:7000/genre/Dramas</strong> > Жанр латиницей с заглавной буквы
+    </div>
+    <br/>
+    <div>Для поиска по двум выбранным актёрам: <strong>http://127.0.0.1:7000/actors/JackBlack/and/DustinHoffman</strong> > Имя и Фамилия с заглавной буквы без пробела
+    </div>
+    <br/>
+    <div>Для поиска по типу(Сериал или фильм) году и жанру: <strong>http://127.0.0.1:7000/film/Movie/1971/Dramas </strong> > где Movie - тип картины (TVShow или Movie), год , жанр (Dramas,Horror,Comedies,Thrillers, Documentaries)
+    </div>
+</body>
+</html>
